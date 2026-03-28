@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillBridge | Build Trust, Build Careers</title>
+    <meta
+      name="description"
+      content="SkillBridge helps informal skilled workers become recognized professionals with verified profiles, ratings, and steady work opportunities."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mesh" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a href="#home" class="brand" aria-label="SkillBridge home">
+        <span class="brand-dot"></span>
+        SkillBridge
+      </a>
+      <nav class="menu" aria-label="Primary">
+        <a href="#workers">Workers</a>
+        <a href="#customers">Customers</a>
+        <a href="#journey">Journey</a>
+      </nav>
+      <a href="#waitlist" class="pill">Join Waitlist</a>
+    </header>
+
+    <main id="home" class="container">
+      <section class="hero reveal">
+        <p class="tag">Platform For Real Skilled Work</p>
+        <h1>From daily informal jobs to a professional identity people trust.</h1>
+        <p>
+          SkillBridge turns plumbers, electricians, carpenters, and field technicians into recognized professionals. With verified profiles,
+          ratings, and career pathways, workers gain stable income while customers find dependable service.
+        </p>
+        <div class="hero-actions">
+          <a href="#waitlist" class="pill">Start as a Worker</a>
+          <a href="#customers" class="ghost">Hire Trusted Pros</a>
+        </div>
+
+        <div class="numbers">
+          <article>
+            <h2 data-count="18000">0</h2>
+            <p>worker profiles created</p>
+          </article>
+          <article>
+            <h2 data-count="96">0</h2>
+            <p>successful job completion rate</p>
+          </article>
+          <article>
+            <h2 data-count="52">0</h2>
+            <p>average monthly income growth</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split reveal" id="workers">
+        <div>
+          <p class="tag">For Skilled Workers</p>
+          <h2>Become visible. Become verified. Grow faster.</h2>
+          <ul>
+            <li>Government ID and trade verification for professional trust</li>
+            <li>Public ratings and service history that attract better clients</li>
+            <li>Career scorecards to unlock premium opportunities</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Worker Progress Snapshot</h3>
+          <p>Trade: Residential Electrician</p>
+          <div class="meter"><span style="width: 83%"></span></div>
+          <p>Profile Strength: 83%</p>
+          <div class="meter"><span style="width: 91%"></span></div>
+          <p>Customer Rating: 4.9/5</p>
+        </div>
+      </section>
+
+      <section class="cards reveal" id="customers">
+        <article>
+          <h3>Verified Professionals</h3>
+          <p>Customers can book workers whose identity, skill category, and previous jobs are confirmed.</p>
+        </article>
+        <article>
+          <h3>Transparent Reputation</h3>
+          <p>Each profile includes ratings, customer feedback, response time, and reliability trends.</p>
+        </article>
+        <article>
+          <h3>Safe Transactions</h3>
+          <p>Clear scope, milestone payouts, and digital records reduce risk for both sides.</p>
+        </article>
+      </section>
+
+      <section class="journey reveal" id="journey">
+        <p class="tag">How SkillBridge Works</p>
+        <h2>Simple journey. Measurable growth.</h2>
+        <ol>
+          <li>
+            <span>01</span>
+            <div>
+              <h3>Register & Verify</h3>
+              <p>Workers create profiles and complete identity and trade checks.</p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div>
+              <h3>Get Reliable Jobs</h3>
+              <p>Customers book trusted professionals based on profile strength and ratings.</p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div>
+              <h3>Build Career Capital</h3>
+              <p>High-quality delivery improves visibility, earnings, and long-term opportunities.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="waitlist reveal" id="waitlist">
+        <h2>Join SkillBridge early access</h2>
+        <p>Launch updates for workers, customers, and local service partners.</p>
+        <form class="waitlist-form" novalidate>
+          <label for="email">Email address</label>
+          <div class="field-row">
+            <input id="email" type="email" placeholder="name@example.com" required />
+            <button type="submit" class="pill">Request Invite</button>
+          </div>
+          <small class="form-message" role="status" aria-live="polite"></small>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> SkillBridge. Professional dignity for skilled workers.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
